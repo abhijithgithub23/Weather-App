@@ -70,9 +70,9 @@ export default function WeatherApp() {
         
         
 
-        <div>
-          {weatherInfo && <BottomRightPanel info={weatherInfo} />}
-        </div>
+    <div>
+      {weatherInfo && <BottomRightPanel info={weatherInfo} />}
+    </div>
 
       </div>
     </div>

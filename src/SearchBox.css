@@ -1,12 +1,14 @@
 /* SearchBox.css */
 
 .top-right {
-  position: relative;
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  justify-content: flex-end; /* push content to bottom */
   width: 100%;
 }
 
 .SearchBox {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0; /* stretch from left */
   right: 0; /* stretch to right */
