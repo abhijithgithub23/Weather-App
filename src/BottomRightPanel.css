@@ -1,0 +1,40 @@
+.bottom-panel-insights {
+  width: 300px;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  backdrop-filter: blur(14px) saturate(150%);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom-panel-insights h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fdfdfd;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 6px;
+}
+
+.insight-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.insight-label {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.insight-value {
+  font-weight: 600;
+  color: #ffffff;
+}

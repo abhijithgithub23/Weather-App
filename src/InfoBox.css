@@ -1,0 +1,92 @@
+/* InfoBox.css */
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info-card {
+  width: 100%;
+  max-width: 540px;
+  padding: 22px;
+  border-radius: var(--card-radius);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  -webkit-backdrop-filter: blur(14px) saturate(130%);
+  backdrop-filter: blur(14px) saturate(130%);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.28);
+  color: var(--text);
+}
+
+.info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-city {
+  font-size: 20px;
+  font-weight: 700;
+}
+.info-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.info-temp {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 10px;
+}
+.temp-value {
+  font-size: 48px;
+  font-weight: 700;
+}
+.temp-unit {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.info-desc {
+  margin-top: 6px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: capitalize;
+}
+
+.meta-grid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.meta-item {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.meta-label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.meta-value {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.info-summary {
+  margin-top: 12px;
+  font-size: 14px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: right;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2); /* slightly dark to make text pop */
+}
